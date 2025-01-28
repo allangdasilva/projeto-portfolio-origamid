@@ -1,0 +1,106 @@
+.experience .caption {
+  color: #e0e0e0;
+}
+.experience-content {
+  display: grid;
+  gap: 2.5rem;
+}
+.experience-text {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 50ch;
+  color: #525252;
+}
+.experience-text strong {
+  color: #141414;
+}
+.enterprise {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.625rem 1.25rem;
+  padding: 1.25rem;
+  border-radius: 0.25rem;
+  background: #f5f5f5;
+}
+.enterprise::before {
+  content: "";
+  position: absolute;
+  top: 1.25rem;
+  left: 0;
+  width: 0.25rem;
+  height: 1.25rem;
+  background: linear-gradient(#b6f829, #67dd0a);
+}
+.enterprise-year {
+  position: absolute;
+  top: 1.35rem;
+  left: -6rem;
+  width: 80px;
+  text-align: right;
+  font-size: 0.875rem;
+  color: #525252;
+}
+.enterprise-title {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+.enterprise-text {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #525252;
+}
+.enterprise-skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+  gap: 0.625rem;
+}
+.enterprise-skills li {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 0.25rem;
+  background: #ffffff;
+  padding: 0.3rem 0.6rem;
+}
+@media (max-width: 800px) {
+  .experience {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .experience .caption {
+    color: #141414;
+  }
+  .experience-text {
+    font-size: 1.25rem;
+    max-width: 70ch;
+  }
+  .enterprise-year {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
+  .enterprise-year::before {
+    content: "Ano: ";
+  }
+}
+@media (max-width: 500px) {
+  .experience {
+    padding-block: 0.625rem;
+    gap: 1.25rem;
+  }
+  .experience-content {
+    gap: 1.25rem;
+  }
+  .experience-text {
+    font-size: 1.125rem;
+  }
+  .enterprise {
+    grid-template-columns: 1fr;
+  }
+  .enterprise-title-span {
+    font-weight: 500;
+  }
+}
