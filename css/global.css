@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Fira Sans", serif;
+  color: #141414;
+}
+ul {
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 5rem;
+
+  max-width: 75rem;
+  margin-inline: auto;
+
+  padding: 1.25rem;
+}
