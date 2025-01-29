@@ -1,0 +1,120 @@
+.training {
+  background: #141414;
+  color: #ffffff;
+}
+.training-container {
+  position: relative;
+  padding-top: 3.75rem;
+}
+.training-container::before {
+  bottom: -3rem;
+  left: 6rem;
+}
+.training-container .caption {
+  color: #000000;
+}
+.training-text {
+  color: #a3a3a3;
+}
+.training-text strong {
+  color: #fff;
+}
+.college-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+.college {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding: 1.25rem;
+  border-radius: 0.25rem;
+  background: #000000;
+}
+.college-type {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #a3a3a3;
+}
+.college-course {
+  flex: 1;
+  position: relative;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 1.25rem;
+}
+.college-course::before {
+  left: -1.5rem;
+}
+.college-institution {
+  font-size: 1.125rem;
+  color: #a3a3a3;
+}
+.training-extra {
+  display: grid;
+  gap: 1.25rem;
+}
+.training-extra h3 {
+  position: relative;
+  margin-bottom: 0.625rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: #8f8f8f;
+}
+.training-extra h3::before {
+  content: "";
+  position: absolute;
+  top: -0.25rem;
+  left: -2.25rem;
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.courses h3::before {
+  background-image: url(../images/cursos.svg);
+}
+.languages h3::before {
+  background-image: url(../images/idiomas.svg);
+}
+.training-extra li {
+  margin-bottom: 1.25rem;
+  font-size: 1.125;
+  line-height: 1.1;
+}
+.training-extra span {
+  color: #8f8f8f;
+}
+.courses li {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 800px) {
+  .training-container {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .training-container::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .training-container .caption {
+    color: #ffffff;
+  }
+  .training-text {
+    font-size: 1.25rem;
+  }
+  .training-extra h3::before {
+    position: initial;
+    margin-bottom: 0.625rem;
+  }
+}
+@media (max-width: 500px) {
+  .training-text {
+    font-size: 1.125rem;
+  }
+}

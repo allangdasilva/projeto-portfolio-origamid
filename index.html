@@ -15,23 +15,26 @@
   <body>
     <header class="header">
       <img src="images/marca.svg" alt="Lobo" />
+
       <nav>
         <ul class="header-menu">
-          <li><a href="#">Experiência</a></li>
-          <li><a href="#">Formação</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#experience">Experiência</a></li>
+          <li><a href="#training">Formação</a></li>
+          <li><a href="#footer">Contato</a></li>
         </ul>
       </nav>
     </header>
 
     <main class="container introduction">
       <img src="images/perfil.jpg" alt="Lobo Cinza" />
+
       <div>
-        <h1>
+        <h1 class="detail">
           Desenvolvedor<br />
           Front-End & <br />
           UX/UI Designer
         </h1>
+
         <p>Localizado em São Paulo</p>
       </div>
     </main>
@@ -42,8 +45,9 @@
       id="experience"
     >
       <h2 class="caption">Experiência</h2>
-      <div class="experience-content">
-        <p class="experience-text">
+
+      <div class="content-base">
+        <p class="text-base experience-text">
           Desenvolvo pequenos projetos como o Bikcraft utilizando apenas
           <strong>HTML</strong>, <strong>CSS</strong> e
           <strong>JavaScript</strong>. Para aplicativos web como a rede social
@@ -51,7 +55,7 @@
           <strong>UI Design</strong> do projeto.
         </p>
 
-        <div class="enterprise">
+        <div class="min-detail enterprise">
           <span class="enterprise-year">2045</span>
           <h3 class="enterprise-title">Bikcraft</h3>
           <span class="enterprise-title enterprise-title-span"
@@ -70,7 +74,7 @@
             <li>UI Design</li>
           </ul>
         </div>
-        <div class="enterprise">
+        <div class="min-detail enterprise">
           <span class="enterprise-year">2044-45</span>
           <h3 class="enterprise-title">Surfbot</h3>
           <span class="enterprise-title enterprise-title-span">Estagiário</span>
@@ -85,7 +89,7 @@
             <li>JavaScript</li>
           </ul>
         </div>
-        <div class="enterprise">
+        <div class="min-detail enterprise">
           <span class="enterprise-year">2045</span>
           <h3 class="enterprise-title">Brafé</h3>
           <span class="enterprise-title enterprise-title-span"
@@ -106,11 +110,11 @@
     </section>
 
     <section class="training" aria-label="Formação" id="training">
-      <div class="training-container">
+      <div class="container detail training-container">
         <h2 class="caption">Formação</h2>
 
-        <div>
-          <p class="training-text">
+        <div class="content-base">
+          <p class="text-base training-text">
             Minha mais recente experiência acadêmica foi o
             <strong>mestrado</strong> 🎓 que fiz no exterior em
             <strong>UX Design</strong>. Além disso me mantenho sempre atualizado
@@ -120,17 +124,19 @@
           <ul class="college-list">
             <li class="college">
               <span class="college-type">Bacharel</span>
-              <h3 class="college-course">Administração de Empresas</h3>
+              <h3 class="min-detail college-course">
+                Administração de Empresas
+              </h3>
               <span class="college-institution">UFRRJ</span>
             </li>
             <li class="college">
               <span class="college-type">Tecnólogo</span>
-              <h3 class="college-course">Design Digital</h3>
+              <h3 class="min-detail college-course">Design Digital</h3>
               <span class="college-institution">Infnet</span>
             </li>
             <li class="college">
               <span class="college-type">Mestre</span>
-              <h3 class="college-course">User Experience Design</h3>
+              <h3 class="min-detail college-course">User Experience Design</h3>
               <span class="college-institution">UCLL</span>
             </li>
           </ul>
@@ -155,5 +161,7 @@
         </div>
       </div>
     </section>
+
+    <footer></footer>
   </body>
 </html>

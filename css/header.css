@@ -19,7 +19,7 @@
   color: #141414;
   display: block;
 }
-@media (max-width: 50rem) {
+@media (max-width: 800px) {
   .header {
     flex-direction: column;
     gap: 1.25rem;
@@ -34,7 +34,7 @@
     border-radius: 0.25rem;
   }
 }
-@media (max-width: 31.25rem) {
+@media (max-width: 500px) {
   .header {
     padding-bottom: 0.625rem;
   }

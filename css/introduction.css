@@ -8,16 +8,8 @@
   margin-bottom: 2.5rem;
 }
 .introduction h1::before {
-  content: "";
-  position: absolute;
   top: -1rem;
   left: -2rem;
-  width: 6rem;
-  height: 6rem;
-  background-image: url(../images/detalhe.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   z-index: -1;
 }
 .introduction p {
