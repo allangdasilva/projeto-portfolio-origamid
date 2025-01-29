@@ -25,6 +25,10 @@
 }
 .footer-contact a {
   color: #ffffff;
+  transition: color 0.3s;
+}
+.footer-contact a:hover {
+  color: #b6f829;
 }
 .footer-copy {
   grid-column: 1 / -1;
