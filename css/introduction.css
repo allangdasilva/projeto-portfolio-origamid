@@ -54,11 +54,10 @@
 }
 @media (max-width: 500px) {
   .introduction {
-    padding-block: 0.625rem;
     word-break: break-all;
   }
   .introduction h1 {
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     margin-bottom: 1.25rem;
   }
   .introduction p {

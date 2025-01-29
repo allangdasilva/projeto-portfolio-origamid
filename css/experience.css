@@ -1,5 +1,5 @@
 .experience .caption {
-  color: #e0e0e0;
+  color: #cfcfcf;
 }
 .experience-text {
   color: #525252;
@@ -76,10 +76,6 @@
 }
 @media (max-width: 500px) {
   .experience {
-    padding-block: 0.625rem;
-    gap: 1.25rem;
-  }
-  .experience-content {
     gap: 1.25rem;
   }
   .experience-text {

@@ -1,5 +1,5 @@
 .training {
-  background: #141414;
+  background: #1f1f1f;
   color: #ffffff;
 }
 .training-container {
@@ -114,6 +114,9 @@
   }
 }
 @media (max-width: 500px) {
+  .training-container {
+    gap: 1.25rem;
+  }
   .training-text {
     font-size: 1.125rem;
   }
